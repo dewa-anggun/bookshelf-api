@@ -1,0 +1,18 @@
+{
+  "name": "bookshelf-app-backend",
+  "version": "1.0.0",
+  "description": "final submission for dicoding course \"Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "Dewa Anggun Wicaksono",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.3.1"
+  }
+}
